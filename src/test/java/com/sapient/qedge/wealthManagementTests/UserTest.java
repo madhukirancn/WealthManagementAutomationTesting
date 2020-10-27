@@ -53,7 +53,7 @@ public class UserTest extends BaseTest {
     @Test(description = "Test to Verify DashBoard Link")
     public void verifyDashboardLink() {
         wmPage.clickDashBoard();
-        Assert.assertEquals(wmPage.verifyExistingInvestorHeading(), false);
+        Assert.assertEquals(wmPage.verifyExistingInvestorHeading(), true);
     }
 
 }
